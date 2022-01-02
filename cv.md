@@ -12,13 +12,13 @@ I'm currently working as an environmental engineer. My goal is to build modern w
 *JavaScript (work in progress)
 *Git
 
-<!-- #Code Example
+#Code Example
 
 ```javascript
 function multiply(a, b) {
   a * b;
 }
-``` -->
+```
 
 #Projects
 https://github.com/rsliapukhinwdev/rsschool-cv
