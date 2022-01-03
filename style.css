@@ -122,8 +122,17 @@ nav {
   margin-bottom: 10px;
 }
 
+.feature {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #999;
+  text-align: center;
+  border-radius: 5px;
+}
+
 .code-example {
   font-size: 18px;
+  text-align: center;
 }
 
 .aside {
@@ -131,13 +140,21 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 25px;
+  justify-content: space-evenly;
+  /* gap: 50px; */
 }
 
 .portfolio-picture {
   width: 300px;
   border-radius: 50%;
+}
+
+.soft-skills {
+  text-align: left;
+}
+
+.soft-skills li {
+  margin-bottom: 15px;
 }
 
 .contact-email {
@@ -160,11 +177,6 @@ nav {
 .footer-logos {
   width: 75px;
   height: 40px;
-}
-
-.main-footer a:hover,
-.main-footer a:focus {
-  background-color: none;
 }
 
 /* RESPONSIVE */
