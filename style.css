@@ -14,7 +14,7 @@ body {
 }
 
 .main-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 50px auto;
   background-color: #435c79;
   color: #fff;
@@ -166,3 +166,19 @@ nav {
 .main-footer a:focus {
   background-color: none;
 }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  p,
+  li,
+  pre {
+    font-size: 18px;
+  }
+  .info {
+    flex-direction: column-reverse;
+  }
+
+  .features {
+    border-right: none;
+  }
+} ;
